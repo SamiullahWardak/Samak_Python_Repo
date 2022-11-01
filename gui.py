@@ -3,6 +3,7 @@ from tkinter import *
 myWindow = Tk()
 myWindow.title("Samak Window")
 myWindow.geometry("420x200+200+60")
+myWindow.resizable(False, False)
 
 
 # Menu

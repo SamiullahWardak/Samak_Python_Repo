@@ -2,8 +2,6 @@ from tkinter import messagebox
 
 import pyautogui
 from tkinter import *
-import os
-import fileinput
 
 
 def take():

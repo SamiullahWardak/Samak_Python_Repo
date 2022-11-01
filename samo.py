@@ -47,33 +47,33 @@ import os
 # except:
 #     print("Not dividable")
 
-# class Animal:
-#     name = "ani2"
-#
-#     def __init__(self, name):
-#         self.name = name
-#
-#     def eat(self):
-#         print("{} can eat".format(self.name))
-#
-#
-# class Dog(Animal):
-#     def __init__(self, name):
-#         self.name = name
-#
-#     def walk(self):
-#         print("{} can walk".format(self.name))
-#
-#
-# myDog = Dog("max")
-# myDog.eat()
-# myDog.walk()
-# myDog.name="Maxi"
-# myDog.eat()
-# myDog.walk()
+class Animal:
+    name = "ani2"
 
-# anim1 = Animal("cat")
-# anim1.eat()
+    def __init__(self, name):
+        self.name = name
+
+    def eat(self):
+        print("{} can eat".format(self.name))
+
+
+class Dog(Animal):
+    def __init__(self, name):
+        self.name = name
+
+    def walk(self):
+        print("{} can walk".format(self.name))
+
+
+myDog = Dog("max")
+myDog.eat()
+myDog.walk()
+myDog.name="Maxi"
+myDog.eat()
+myDog.walk()
+
+anim1 = Animal("cat")
+anim1.eat()
 
 
 
