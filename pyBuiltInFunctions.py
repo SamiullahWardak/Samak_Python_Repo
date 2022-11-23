@@ -31,7 +31,7 @@ x = lambda : print("I'm lambda function")
 print(callable(x))
 x() # calling the lambda function
 
-# compile function Compiles the given string format code
+# compile() function Compiles the given string format code
 code = "x=5\ny=15\nprint(x+y)"
 com_code = compile(code, '', 'exec')
 print(type(com_code))
@@ -60,7 +60,7 @@ print(float(y))
 
 # format() function Returns a formatted representation of a given value
 print('--------------------------------')
-print(format(112, 'd')) # prints 112 on the place of 'd' d means integer
+print(format(112, 'd')) # prints 112 on the place of 'd' d means integer digit
 print(format(23.334432, 'f')) # 'f' means float
 print(format(18, 'b')) # 'b' means binary
 

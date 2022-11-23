@@ -1,5 +1,13 @@
 import re
 
+pattern = r'07[0-9][0-9]{7}'
+phoneNumber = '0794188755'
+result = re.match(pattern, phoneNumber, re.I)
+if(result):
+    print('Matched => ',result)
+else:
+    print('Not matched!')
+
 string = 'He is 23 years old.'
 
 reObj = re.match(r'.*? .*?', string, re.M|re.I)
