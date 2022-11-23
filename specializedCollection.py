@@ -1,5 +1,5 @@
 # Specialized collection has following types
-# namedueple(), deque, Chainmap, Counter, OrderedDict, defaultdict,
+# namedTuple(), deque, Chainmap, Counter, OrderedDict, defaultDict,
 # UserDict, UserList, UserString
 
 # (1) namedtuple() returns a tuple with a named value for each element in the tuple.
