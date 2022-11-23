@@ -20,6 +20,6 @@ label = Label(text='Click the button to capture', font=40, background='cyan', fo
 btn = Button(text='Screenshot', font=40, background='#343434', foreground='#adadff', command=take).pack(anchor='center')
 
 msg = messagebox.showinfo(title='Warning', message='1- (IMPORTANT) Check the folder must not have any file same as (screenshot.JPG)\n'
-                                               '2- (IMPORTANT) After capturing every screenshot change the name of the captured screenshot')
+                                               '2- (IMPORTANT) After capturing each screenshot change the name of the captured screenshot')
 
 root.mainloop()
