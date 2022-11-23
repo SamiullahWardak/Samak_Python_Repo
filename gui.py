@@ -42,10 +42,10 @@ lastNameE = StringVar()
 ageE = StringVar()
 genderE = StringVar()
 
-# mainP = Label(myWindow, width=800, height=30, bg='red')
-# mainL = Label(text='Enter Your Details', font='20').grid(row=0, column=0, sticky='e')
+mainP = Label(myWindow, width=800, height=30, bg='red')
+mainL = Label(text='Enter Your Details', font='20').grid(row=0, column=0, sticky='e')
 
-# secP = Label(myWindow, width=100, height=200)
+secP = Label(myWindow, width=100, height=200)
 nameL = Label(text="Name", bg='gray', fg='white', width=15).grid(row=1, column=0)
 lastNameL = Label(text="Last Name", bg='gray', fg='white', width=15).grid(row=2, column=0)
 ageL = Label(text="Age", bg='gray', fg='white', width=15).grid(row=3, column=0, )

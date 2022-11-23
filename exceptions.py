@@ -35,20 +35,25 @@ else:
     
 # finally statement: executed before the try statement throws an exception.
 try:
-    fileptr = open("file.txt", "w")
+    fileptr = open("file.txt", "a") 
     try:
-        fileptr.write("Hi I'm Samak Wardak!")
+        fileptr.write("\nHi I'm Samak Wardak!")
     finally:
         fileptr.close()
         print("File closed!")
+        print("Type of fileptr: ",type(fileptr))
 except:
     print("Can't open the file!")
+    # File I/O modes: 
+    # w (write)
+    # r (read)
+    # a (append)
     
 # raise statement:
 try:
     age = int(input("Enter your age: "))
     if age < 18:
-        raise ValueError;
+        raise ValueError
     else:
         print("The age is valid!")
 except:
