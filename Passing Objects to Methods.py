@@ -13,8 +13,8 @@ class Another:
         print("Another constructor called!")
     def anotherShow(self):
         # obj1 = StaticVariable()
-        # print("My another name in another show fuunction:", obj1.__myName)
-        print("My another name in another show fuunction:", StaticVariable.__myStaticVariable__)
+        # print("My another name in another show fuunction:", obj1.__myName)    # Hidden variable can't be accessed here
+        print("My another name in another show fuunction:", StaticVariable.__myStaticVariable__)    # Static variable accessed via class name
 
 objFinal = Another()
 objFinal.anotherShow()
