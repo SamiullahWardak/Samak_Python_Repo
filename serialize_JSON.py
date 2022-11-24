@@ -13,6 +13,7 @@ student = {
 # with open('Student_Data.json', 'w') as write_file:
 #     json.dump(student, write_file)
 #     write_file.close()
+
 file = open('Student_Data.json', 'w')
 json.dump(student, file)
 file.close()
