@@ -1,7 +1,7 @@
 class StaticVariable:
     def __init__(self) -> None:
         print("constructor called!")
-    __myName__ = "Samiullah"
+    __myStaticVariable__ = "Samiullah"
     def show(self):
         print("My name in show function:", self.__myName)
 
@@ -14,7 +14,7 @@ class Another:
     def anotherShow(self):
         # obj1 = StaticVariable()
         # print("My another name in another show fuunction:", obj1.__myName)
-        print("My another name in another show fuunction:", StaticVariable.__myName__)
+        print("My another name in another show fuunction:", StaticVariable.__myStaticVariable__)
 
 objFinal = Another()
 objFinal.anotherShow()
