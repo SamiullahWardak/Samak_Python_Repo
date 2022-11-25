@@ -1,0 +1,25 @@
+# import queue
+
+# myQueue = queue.Queue(maxsize=10)
+# myQueue.put(9)
+# myQueue.put(7)
+# myQueue.put(5)
+# myQueue.put(3)
+# myQueue.put(1)
+# print(myQueue.get())
+# print(myQueue.get())
+# print(myQueue.get())
+# print(myQueue.get())
+# print(myQueue.get())
+
+x = ['Python', 'Kotlin', 'R', 'C#', 'Javascript']
+x.append('Java')
+print(x)
+x.append('C++')
+print(x)
+x.pop()
+print(x)
+x.pop()
+print(x)
+x.pop()
+print(x)
