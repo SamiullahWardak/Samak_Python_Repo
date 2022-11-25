@@ -22,7 +22,6 @@ def main_task():
     t2.start()
     t1.join()
     t2.join()
-    
 
 for i in range(10):
     main_task()
