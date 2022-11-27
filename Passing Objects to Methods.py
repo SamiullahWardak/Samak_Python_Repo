@@ -2,8 +2,8 @@ class StaticVariable:
     def __init__(self) -> None:
         print("constructor called!")
     __myStaticVariable__ = "Samiullah"
-    def show(self):
-        print("My name in show function:", self.__myName)
+    # def show(self):
+    #     print("My name in show function:", self.__myName)
 
 # obj = StaticVariable()
 # obj.show()
